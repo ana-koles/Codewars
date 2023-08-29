@@ -11,8 +11,6 @@ function topThreeWords(text) {
         return result;
     }
 
-    let charCount = 0;
-
     const arrOnlyChar = arrFiltered.map(item => {
         let itemArr = item.split('');
         let itemArrTwo = itemArr.map(char => {
