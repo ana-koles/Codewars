@@ -47,11 +47,11 @@ function encode(input) {
 function decode(input) {
     const arr = input.split('');
     let char = '';
-    let count = ''
+    let count = '';
     let str = '';
     const result = [];
     let regex = /^[0-9]\d*$/;
-    arr.forEach((elem, index, arr) => {
+    arr.forEach((elem) => {
         if (regex.test(elem)) {
             count += elem;
         } else {
